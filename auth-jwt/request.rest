@@ -1,0 +1,18 @@
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{"name":"kylie"}
+
+###
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imt5bGllIiwiaWF0IjoxNjc4ODAzMjg3LCJleHAiOjE2Nzg4MDMzMDd9.-T6jmtqziGeNvNmvfltXeZYdYDo8k1Nb5xXdQU_svc4"}
+
+###
+POST http://localhost:4000/token
+Content-Type: application/json
+
+
+{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imt5bGllIiwiaWF0IjoxNjc4ODAzMjYzfQ.yMutn7MtCJpVjAr-4G_tqvDtCBzKc3N_uDnDTOQwmeA"}
+
